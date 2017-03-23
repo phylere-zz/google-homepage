@@ -1,11 +1,15 @@
 
 div{
-
+  display: inline-block;
+  border-collapse: collapse;
+  padding:0;
+  margin:0;
+  width: 19%;
 }
 
 ul{
   display: block;
-  outline: 1px blue solid;
+  border-collapse: collapse;
   list-style-type: none;
   margin:0;
   padding:0;
@@ -13,8 +17,9 @@ ul{
 
 li{
   display: inline-block;
+  border-collapse: collapse;
   font-family: Arial, sans-serif;
-  padding:6px;
+  height: 20px;
 }
 
 a{
@@ -52,13 +57,14 @@ section{
 }
 
 .topnavbar{
-  float:right;
+  text-align: right;
 }
 
 .leftnav{
-  float:left;
+  text-align: left;
+
 }
 
 .rightnav{
-  float:right;
+  text-align: right;
 }
